@@ -1,3 +1,4 @@
 # to-do_react 
 
-hosted on https://react-todo-app-101.herokuapp.com/
+hosted: https://react-todo-app-101.herokuapp.com/
+based on: https://www.youtube.com/watch?v=E1E08i2UJGI
