@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Cookie', cursive;
+    font-size: 20px;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    #c46063 0%,
+    #FFB6B9 100%
+  );
+}
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 520px;
+  min-height: 900px;
+  background-image: url("https://static.wixstatic.com/media/0eb31c_fb318060749d4024a2a88025b7316f70~mv2.jpeg/v1/fill/w_640,h_1382,al_c,q_85,usm_0.66_1.00_0.01/0eb31c_fb318060749d4024a2a88025b7316f70~mv2.webp");
+  background-size: contain;
+  text-align: center;
+  margin: 50px auto;
+  border-radius: 10px;
+  padding-bottom: 15px;
+  
+}
+
+h1 {
+  margin: 32px 0;
+  color: #fff;
+  font-size: 24px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.todo-form {
+  margin-bottom: 32px;
+}
+
+.todo-input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #fff;
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: #fff;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 20px;
+}
+
+.todo-input::placeholder {
+  color: #ffffff;
+  font-family: 'Cookie', cursive;}
+
+.todo-button {
+  padding: 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    #BD4B4B 0%,
+    #EFB7B7 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.todo-input.edit {
+  border: 2px solid #ffffff;
+}
+
+.todo-button.edit {
+  background: linear-gradient(
+    90deg,
+    #63824b 0%,
+    #446c35 100%
+  );
+  padding: 16px 22px;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: #fff;
+  background: linear-gradient(
+    90deg,
+    #6a8a5e 0%,
+    #3b5a34 100%
+  );
+  font-family: 'Allison', cursive;
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+  opacity: .8;
+}
+
+.todo-row:nth-child(4n + 1) {
+  background: linear-gradient(
+    90deg,
+    #7d9838 0%,
+    #46552b 100%
+  );
+  font-family: 'Cookie', cursive;
+}
+
+.todo-row:nth-child(4n + 2) {
+  background: linear-gradient(
+    90deg,
+    #cfda94 0%,
+    #89944D 100%
+  );
+  font-family: 'Cookie', cursive;}
+
+.todo-row:nth-child(4n + 3) {
+  background: linear-gradient(
+    90deg,
+    #F2A89B 0%,
+    #7B3024 100%
+  );
+  font-family: 'Cookie', cursive;}
+
+.icons {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.delete-icon {
+  margin-right: 5px;
+  color: #fff;
+}
+
+.edit-icon {
+  color: #fff;
+}
